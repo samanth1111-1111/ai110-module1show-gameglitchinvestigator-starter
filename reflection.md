@@ -9,6 +9,16 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   (for example: "the secret number kept changing" or "the hints were backwards").
 
 ---
+the hint were backward
+the hint need to be lower if number is higher than the number and the hint need to be higher if number is lower than the number
+new game only secret number change not the full thing
+when new game every thing need to reset
+the dificulty not work
+the difficulty stay 1 to 100
+attempt 1 when refresh
+it should be 0
+accept negative number
+it should accept positive
 
 ## 2. How did you use AI as a teammate?
 
