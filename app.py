@@ -130,12 +130,17 @@ with col2:
     new_game = st.button("New Game 🔁")
 with col3:
     show_hint = st.checkbox("Show hint", value=True)
-
+# FIXME: Logic breaks here
+# new game doesn't make the game back to 1
 if new_game:
+    # instead of pick a integer 1 100 it will pick on difficulty
     st.session_state.secret = random.randint(low, high)
     st.session_state.attempts = 0
+    # instead of the previous score the score is at -
     st.session_state.score = 0
+    # track win loss state set status to playing
     st.session_state.status = "playing"
+    # guess history to nothing
     st.session_state.history = []
     st.success("New game started.")
     st.rerun()
