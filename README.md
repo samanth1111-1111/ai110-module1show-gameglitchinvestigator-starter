@@ -35,7 +35,8 @@ The new game button reset the number with the range of difficulty, attempt, hist
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
-<img width="1227" height="845" alt="Screenshot 2026-03-12 at 12 26 24 AM" src="https://github.com/user-attachments/assets/6daefe59-c3bc-40a1-adad-0732a9b3a4ff" />
+<img width="1227" height="845" alt="Screenshot 2026-03-12 at 12 26 24 AM" src="https://github.com/user-attachments/assets/a30f5716-e738-4322-aa59-e8d6b8080192" />
+
 
 
 ## 🚀 Stretch Features
