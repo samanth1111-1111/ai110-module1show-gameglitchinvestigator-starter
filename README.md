@@ -26,12 +26,16 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+The game is a guess game with diffucilty and attempt and hint.
 - [ ] Detail which bugs you found.
+The new game button was not change everything back to normal. The advice when guess was not right.
 - [ ] Explain what fixes you applied.
+The new game button reset the number with the range of difficulty, attempt, history, and status to playing the advice when guess was change.
 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+
 
 ## 🚀 Stretch Features
 
