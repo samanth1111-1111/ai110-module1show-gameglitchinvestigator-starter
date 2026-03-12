@@ -28,24 +28,26 @@ def parse_guess(raw: str):
 
     return True, value, None
 
-
+# FIXME: Logic breaks here
+# if number is higher than answer it should be lower if number is lower than answer it should be higher
 def check_guess(guess, secret):
     if guess == secret:
         return "Win", "🎉 Correct!"
 
     try:
+        # change higher to lower
         if guess > secret:
-            return "Too High", "📈 Go HIGHER!"
+            return "Too High", "📉 Go LOWER!"
         else:
-            return "Too Low", "📉 Go LOWER!"
+            # change lower to higher
+            return "Too Low", "📈 Go HIGHER!"
     except TypeError:
         g = str(guess)
         if g == secret:
             return "Win", "🎉 Correct!"
         if g > secret:
-            return "Too High", "📈 Go HIGHER!"
-        return "Too Low", "📉 Go LOWER!"
-
+            return "Too High", "📉 Go LOWER!"
+        return "Too Low", "📈 Go HIGHER!"
 
 def update_score(current_score: int, outcome: str, attempt_number: int):
     if outcome == "Win":
